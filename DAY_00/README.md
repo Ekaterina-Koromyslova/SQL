@@ -57,18 +57,14 @@
 Вывести список пиццерий (название и рейтинг), у которых рейтинг от 3.5 до 5.0 включительно, отсортировать по рейтингу   
    
 ### Задание 03   
-**Условие **   
+**Условие**   
 Вывести id людей (без дубликатов) которые посещали пиццерии с 6 по 9 января 2022 ИЛИ посещали пиццерии с id = 2   
    
-### Задание 04
-   
+### Задание 04   
 **Условие**   
 Собрать строку в формате:   
 ```
-
 Anna (age:16,gender:'female',address:'Moscow')
-
-
 ```
 Вывести это как один вычисляемый столбец с именем **person\_information**.   
 Отсортировать по этому столбцу в порядке возрастания.   
@@ -84,8 +80,6 @@ Anna (age:16,gender:'female',address:'Moscow')
 ```
 if (person_name == 'Denis') then return true
     else return false
-
-
 ```
 Нельзя использовать IN, любые типы JOIN   
    
@@ -97,12 +91,10 @@ if (person_name == 'Denis') then return true
 if (age >= 10 and age <= 20) then return 'interval #1'
 else if (age > 20 and age < 24) then return 'interval #2'
 else return 'interval #3'
-
-
 ```
    
 ### Задание 08   
-**Условие **   
+**Условие**   
 Написать запрос который выведет строки из person\_order у которых id - четное число, отсортировать по id   
    
 ### Задание 09   
@@ -125,8 +117,6 @@ SELECT (...) AS person_name ,  -- this is an internal query in a main SELECT cla
         (...) AS pizzeria_name  -- this is an internal query in a main SELECT clause
 FROM (SELECT … FROM person_visits WHERE …) AS pv -- this is an internal query in a main FROM clause
 ORDER BY ...
-
-
 ```
    
    
